@@ -1,0 +1,7 @@
+<isdecorate template="common/layout/page">
+  <isloop items="${pdict.out}" status="st" alias ="pObjects">
+       <h1>
+           <isprint value="${pObjects.getName()}" />
+       </h1>
+  </isloop>
+</isdecorate>

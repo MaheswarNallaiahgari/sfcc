@@ -1,0 +1,5 @@
+<isdecorate template="common/layout/page">
+<isloop items="${pdict.List}" var="product" status="rv">
+<h1> The Product Name  ID "${product.ID}" is "${product.name}" and present at"${rv.index}" index</h1>
+</isloop>
+</isdecorate>
